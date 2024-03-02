@@ -22,7 +22,7 @@ services:
     ports:
       - '9000:9000'
     volumes:
-      - ./app:/www/syfmony_docker
+      - ./app:/www/symfony_docker
     depends_on:
       - database
 
