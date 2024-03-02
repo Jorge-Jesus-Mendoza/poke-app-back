@@ -16,4 +16,4 @@ ssh: ## Into bash
 	docker exec -ti php bash
 
 new-project: ## Start New Project on Symfony
-	docker exec -ti php symfony new . --no-git
+	docker exec -ti php symfony new project --no-git
