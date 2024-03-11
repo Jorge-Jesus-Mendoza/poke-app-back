@@ -17,3 +17,6 @@ ssh: ## Into bash
 
 new-project: ## Start New Project on Symfony
 	docker exec -ti php symfony new project --no-git
+
+grant-permissions:
+	sudo chown -R $USER:$USER ./app
